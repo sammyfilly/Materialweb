@@ -1,0 +1,34 @@
+<div class="figure-wrapper">
+  <style>
+    main > .figure-wrapper {
+      /* prevent scrolling bars on dropdown menu open */
+      overflow: visible;
+      /* unset page styles */
+      --md-list-item-container-shape: 0px;
+    }
+  </style>
+  <figure
+    title="Outlined select theming example"
+    aria-label="Image of an outlined select with a different theme applied"
+  >
+    <style>
+      :root {
+        --md-outlined-select-text-field-outline-color: #6e7979;
+        --md-outlined-select-text-field-container-shape: 0px;
+        --md-outlined-select-text-field-input-text-color: #005353;
+        --md-outlined-select-text-field-input-text-font: system-ui;
+      }
+
+      md-outlined-select::part(menu) {
+        --md-menu-container-color: #f4fbfa;
+        --md-menu-container-shape: 0px;
+        --md-menu-item-container-color: transparent;
+      }
+    </style>
+
+    <md-outlined-select>
+      <md-select-option selected value="apple" headline="Apple"></md-select-option>
+      <md-select-option value="tomato" headline="Tomato"></md-select-option>
+    </md-outlined-select>
+  </figure>
+</div>
