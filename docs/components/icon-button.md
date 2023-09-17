@@ -418,3 +418,86 @@ Token                                       | Default value
   <md-icon>check</md-icon>
 </md-outlined-icon-button>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdIconButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Disables the icon button and makes it non-interactive.
+`flipIconInRtl` | `boolean` | `false` | Flips the icon if it is in an RTL context at startup.
+`href` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `href` resource attribute.
+`target` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `target` attribute.
+`ariaLabelSelected` | `string` | `''` | The `aria-label` of the button when the button is toggleable and selected.
+`toggle` | `boolean` | `false` | When true, the button will toggle between selected and unselected<br>states
+`selected` | `boolean` | `false` | Sets the selected state. When false, displays the default icon. When true,<br>displays the selected icon, or the default icon If no `slot="selected"`<br>icon is provided.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+
+### MdFilledIconButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Disables the icon button and makes it non-interactive.
+`flipIconInRtl` | `boolean` | `false` | Flips the icon if it is in an RTL context at startup.
+`href` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `href` resource attribute.
+`target` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `target` attribute.
+`ariaLabelSelected` | `string` | `''` | The `aria-label` of the button when the button is toggleable and selected.
+`toggle` | `boolean` | `false` | When true, the button will toggle between selected and unselected<br>states
+`selected` | `boolean` | `false` | Sets the selected state. When false, displays the default icon. When true,<br>displays the selected icon, or the default icon If no `slot="selected"`<br>icon is provided.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+
+### MdFilledTonalIconButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Disables the icon button and makes it non-interactive.
+`flipIconInRtl` | `boolean` | `false` | Flips the icon if it is in an RTL context at startup.
+`href` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `href` resource attribute.
+`target` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `target` attribute.
+`ariaLabelSelected` | `string` | `''` | The `aria-label` of the button when the button is toggleable and selected.
+`toggle` | `boolean` | `false` | When true, the button will toggle between selected and unselected<br>states
+`selected` | `boolean` | `false` | Sets the selected state. When false, displays the default icon. When true,<br>displays the selected icon, or the default icon If no `slot="selected"`<br>icon is provided.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+
+### MdOutlinedIconButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Disables the icon button and makes it non-interactive.
+`flipIconInRtl` | `boolean` | `false` | Flips the icon if it is in an RTL context at startup.
+`href` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `href` resource attribute.
+`target` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `target` attribute.
+`ariaLabelSelected` | `string` | `''` | The `aria-label` of the button when the button is toggleable and selected.
+`toggle` | `boolean` | `false` | When true, the button will toggle between selected and unselected<br>states
+`selected` | `boolean` | `false` | Sets the selected state. When false, displays the default icon. When true,<br>displays the selected icon, or the default icon If no `slot="selected"`<br>icon is provided.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+
+<!-- auto-generated API docs end -->

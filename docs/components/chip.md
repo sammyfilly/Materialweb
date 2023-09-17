@@ -478,3 +478,72 @@ Token                                   | Default value
 
 <md-suggestion-chip label="Suggestion"></md-suggestion-chip>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdChipSet
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`type` | `string` | `''` | 
+`singleSelect` | `boolean` | `false` | 
+`chips` | `Chip[]` | `undefined` | 
+
+### MdAssistChip
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`elevated` | `boolean` | `false` | 
+`href` | `string` | `''` | 
+`target` | `string` | `''` | 
+`disabled` | `boolean` | `false` | 
+`label` | `string` | `''` | 
+
+### MdFilterChip
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`elevated` | `boolean` | `false` | 
+`removable` | `boolean` | `false` | 
+`selected` | `boolean` | `false` | 
+`ariaLabelRemove` | `string` | `undefined` | 
+`disabled` | `boolean` | `false` | 
+`label` | `string` | `''` | 
+
+### MdInputChip
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`avatar` | `boolean` | `false` | 
+`href` | `string` | `''` | 
+`target` | `string` | `''` | 
+`removeOnly` | `boolean` | `false` | 
+`selected` | `boolean` | `false` | 
+`ariaLabelRemove` | `string` | `undefined` | 
+`disabled` | `boolean` | `false` | 
+`label` | `string` | `''` | 
+
+### MdSuggestionChip
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`elevated` | `boolean` | `false` | 
+`href` | `string` | `''` | 
+`target` | `string` | `''` | 
+`disabled` | `boolean` | `false` | 
+`label` | `string` | `''` | 
+
+<!-- auto-generated API docs end -->

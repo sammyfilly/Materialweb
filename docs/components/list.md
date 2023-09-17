@@ -541,3 +541,52 @@ Token                                 | Default value
   </md-list-item>
 </md-list>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdList
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`items` | `ListItem[]` | `undefined` | An array of activatable and disableable list items. Queries every assigned<br>element that has the `md-list-item` attribute.<br><br>_NOTE:_ This is a shallow, flattened query via<br>`HTMLSlotElement.queryAssignedElements` and thus will _only_ include direct<br>children / directly slotted elements.
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`activateNextItem` | _None_ | `ListItem` | Activates the next item in the list. If at the end of the list, the first<br>item will be activated.
+`activatePreviousItem` | _None_ | `ListItem` | Activates the previous item in the list. If at the start of the list, the<br>last item will be activated.
+
+### MdListItem
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`noninteractive` | `boolean` | `false` | Removes the hover and click ripples from the item when true.
+`headline` | `string` | `''` | The primary, headline text of the list item.
+`supportingText` | `string` | `''` | The one-line supporting text below the headline. Set<br>`multiLineSupportingText` to `true` to support multiple lines in the<br>supporting text.
+`multiLineSupportingText` | `boolean` | `false` | Modifies `supportingText` to support multiple lines.
+`trailingSupportingText` | `string` | `''` | The supporting text placed at the end of the item. Overridden by elements<br>slotted into the `end` slot.
+`disabled` | `boolean` | `false` | Disables the item and makes it non-selectable and non-interactive.
+`type` | `string` | `'listitem'` | Sets the role of the list item. Set to 'nothing' to clear the role. This<br>property will be ignored if `href` is set since the underlying element will<br>be a native anchor tag.
+`isListItem` | `boolean` | `true` | READONLY. Sets the `md-list-item` attribute on the element.
+`href` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `href` resource attribute.
+`target` | `string` | `''` | Sets the underlying `HTMLAnchorElement`'s `target` attribute when `href` is<br>set.
+`tabIndex` | `number` | `0` | 
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`getRenderClasses` | _None_ | `{ noninteractive: boolean; 'with-one-line': boolean; 'with-two-line': boolean; 'with-three-line': boolean; disabled: boolean; }` | 
+`renderRipple` | _None_ | `unique symbol | TemplateResult` | 
+`renderFocusRing` | _None_ | `unique symbol | TemplateResult` | 
+`onFocus` | _None_ | `void` | 
+
+<!-- auto-generated API docs end -->

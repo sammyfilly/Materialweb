@@ -260,3 +260,27 @@ Token                    | Default value
   <md-ripple></md-ripple>
 </button>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdRipple
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Disables the ripple.
+`htmlFor` | `string` | `undefined` | 
+`control` | `HTMLElement` | `undefined` | 
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`attach` | `control` | `void` | 
+`detach` | _None_ | `void` | 
+
+<!-- auto-generated API docs end -->

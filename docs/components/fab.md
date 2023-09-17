@@ -472,3 +472,46 @@ Add with a different theme applied](images/fab/theming-branded.webp)
   </svg>
 </md-branded-fab>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdFab
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`variant` | `string` | `'surface'` | The FAB color variant to render.
+`size` | `string` | `'medium'` | The size of the FAB.<br><br>NOTE: Branded FABs cannot be sized to `small`, and Extended FABs do not<br>have different sizes.
+`label` | `string` | `''` | The text to display on the FAB.
+`lowered` | `boolean` | `false` | Lowers the FAB's elevation.
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`getRenderClasses` | _None_ | `{ primary: boolean; secondary: boolean; tertiary: boolean; lowered: boolean; small: boolean; large: boolean; extended: boolean; }` | 
+
+### MdBrandedFab
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`variant` | `string` | `undefined` | Branded FABs have no variants
+`variant` | `string` | `'surface'` | The FAB color variant to render.
+`size` | `string` | `'medium'` | The size of the FAB.<br><br>NOTE: Branded FABs cannot be sized to `small`, and Extended FABs do not<br>have different sizes.
+`label` | `string` | `''` | The text to display on the FAB.
+`lowered` | `boolean` | `false` | Lowers the FAB's elevation.
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`getRenderClasses` | _None_ | `{ primary: boolean; secondary: boolean; tertiary: boolean; small: boolean; lowered: boolean; large: boolean; extended: boolean; }` | 
+`getRenderClasses` | _None_ | `{ primary: boolean; secondary: boolean; tertiary: boolean; lowered: boolean; small: boolean; large: boolean; extended: boolean; }` | 
+
+<!-- auto-generated API docs end -->

@@ -117,3 +117,20 @@ Token                    | Default value
   <p>Lorem ipsum...</p>
 </section>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdDivider
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`inset` | `boolean` | `false` | Indents the divider with equal padding on both sides.
+`insetStart` | `boolean` | `false` | Indents the divider with padding on the leading side.
+`insetEnd` | `boolean` | `false` | Indents the divider with padding on the trailing side.
+
+<!-- auto-generated API docs end -->

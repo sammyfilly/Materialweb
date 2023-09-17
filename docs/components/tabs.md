@@ -369,3 +369,68 @@ Token                                       | Default value
   <md-secondary-tab>Tab 3</md-secondary-tab>
 </md-tabs>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdTabs
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`autoActivate` | `boolean` | `false` | Whether or not to automatically select a tab when it is focused.
+`tabs` | `Tab[]` | `undefined` | The tabs of this tab bar.
+`activeTab` | `Tab` | `undefined` | The currently selected tab, `null` only when there are no tab children.
+`activeTabIndex` | `number` | `undefined` | The index of the currently selected tab.
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`scrollToTab` | `tabToScrollTo` | `Promise<void>` | Scrolls the toolbar, if overflowing, to the active tab, or the provided<br>tab.
+
+#### Events
+
+Event | Type | Bubbles | Composed | Description
+--- | --- | --- | --- | ---
+`change` | `undefined` | No | No | Fired when the selected tab changes. The target's selected or<br>selectedItem and previousSelected or previousSelectedItem provide information<br>about the selection change. The change event is fired when a user interaction<br>like a space/enter key or click cause a selection change. The tab selection<br>based on these actions can be cancelled by calling preventDefault on the<br>triggering `keydown` or `click` event.
+
+### MdPrimaryTab
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`inlineIcon` | `boolean` | `false` | Whether or not the icon renders inline with label or stacked vertically.
+`active` | `boolean` | `false` | Whether or not the tab is selected.
+`hasIcon` | `boolean` | `false` | In SSR, set this to true when an icon is present.
+`iconOnly` | `boolean` | `false` | In SSR, set this to true when there is no label and only an icon.
+`selected` | `boolean` | `undefined` | TODO(b/293476210): remove after migrating
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`[ANIMATE_INDICATOR]` | `previousTab` | `void` | 
+
+### MdSecondaryTab
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`active` | `boolean` | `false` | Whether or not the tab is selected.
+`hasIcon` | `boolean` | `false` | In SSR, set this to true when an icon is present.
+`iconOnly` | `boolean` | `false` | In SSR, set this to true when there is no label and only an icon.
+`selected` | `boolean` | `undefined` | TODO(b/293476210): remove after migrating
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`[ANIMATE_INDICATOR]` | `previousTab` | `void` | 
+
+<!-- auto-generated API docs end -->

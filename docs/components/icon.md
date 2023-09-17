@@ -204,3 +204,12 @@ md-icon[filled] {
   <md-icon filled>house</md-icon>
 </span>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdIcon
+
+<!-- auto-generated API docs end -->

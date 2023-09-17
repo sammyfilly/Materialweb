@@ -205,3 +205,23 @@ Token                            | Default value
 <md-radio name="group" checked></md-radio>
 <md-radio name="group"></md-radio>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdRadio
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the radio is disabled.
+`value` | `string` | `'on'` | The element value to use in form submission when checked.
+`checked` | `boolean` | `undefined` | Whether or not the radio is selected.
+`name` | `string` | `undefined` | The HTML name to use in form submission.
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+
+<!-- auto-generated API docs end -->

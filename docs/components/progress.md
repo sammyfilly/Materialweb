@@ -374,3 +374,33 @@ Token                                          | Default value
 
 <md-linear-progress value="0.5"></md-linear-progress>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdLinearProgress
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`buffer` | `number` | `1` | Buffer amount to display, a fraction between 0 and 1.
+`value` | `number` | `0` | Progress to display, a fraction between 0 and `max`.
+`max` | `number` | `1` | Maximum progress to display, defaults to 1.
+`indeterminate` | `boolean` | `false` | Whether or not to display indeterminate progress, which gives no indication<br>to how long an activity will take.
+`fourColor` | `boolean` | `false` | Whether or not to render indeterminate mode using 4 colors instead of one.
+
+### MdCircularProgress
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`value` | `number` | `0` | Progress to display, a fraction between 0 and `max`.
+`max` | `number` | `1` | Maximum progress to display, defaults to 1.
+`indeterminate` | `boolean` | `false` | Whether or not to display indeterminate progress, which gives no indication<br>to how long an activity will take.
+`fourColor` | `boolean` | `false` | Whether or not to render indeterminate mode using 4 colors instead of one.
+
+<!-- auto-generated API docs end -->

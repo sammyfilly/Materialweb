@@ -13,7 +13,8 @@ import {CLOSE_REASON, createDefaultCloseMenuEvent, isClosableKey, MenuItem} from
 export {ListItemRole} from '../../../list/internal/listitem/list-item.js';
 
 /**
- * @fires close-menu {CloseMenuEvent}
+ * @fires close-menu {CloseMenuEvent} Requests the parent menu to deselect other
+ * items when a submenu opens. --bubbles --composed
  */
 export class MenuItemEl extends ListItemEl implements MenuItem {
   /**

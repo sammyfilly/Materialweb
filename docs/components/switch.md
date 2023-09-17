@@ -227,3 +227,44 @@ Token                               | Default value
 <md-switch></md-switch>
 <md-switch selected></md-switch>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdSwitch
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Disables the switch and makes it non-interactive.
+`selected` | `boolean` | `false` | Puts the switch in the selected state and sets the form submission value to<br>the `value` property.
+`icons` | `boolean` | `false` | Shows both the selected and deselected icons.
+`showOnlySelectedIcon` | `boolean` | `false` | Shows only the selected icon, and not the deselected icon. If `true`,<br>overrides the behavior of the `icons` property.
+`required` | `boolean` | `false` | When true, require the switch to be selected when participating in<br>form submission.<br><br>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#validation
+`value` | `string` | `'on'` | The value associated with this switch on form submission. `null` is<br>submitted when `selected` is `false`.
+`name` | `string` | `undefined` | The HTML name to use in form submission.
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+`validity` | `ValidityState` | `undefined` | Returns a ValidityState object that represents the validity states of the<br>switch.<br><br>Note that switches will only set `valueMissing` if `required` and not<br>selected.<br><br>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#validation
+`validationMessage` | `string` | `undefined` | Returns the native validation error message.<br><br>https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation#constraint_validation_process
+`willValidate` | `boolean` | `undefined` | Returns whether an element will successfully validate based on forms<br>validation rules and constraints.<br><br>https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation#constraint_validation_process
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`checkValidity` | _None_ | `boolean` | Checks the switch's native validation and returns whether or not the<br>element is valid.<br><br>If invalid, this method will dispatch the `invalid` event.<br><br>https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/checkValidity
+`reportValidity` | _None_ | `boolean` | Checks the switch's native validation and returns whether or not the<br>element is valid.<br><br>If invalid, this method will dispatch the `invalid` event.<br><br>The `validationMessage` is reported to the user by the browser. Use<br>`setCustomValidity()` to customize the `validationMessage`.<br><br>https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/reportValidity
+`setCustomValidity` | `error` | `void` | Sets the switch's native validation error message. This is used to<br>customize `validationMessage`.<br><br>When the error is not an empty string, the switch is considered invalid<br>and `validity.customError` will be true.<br><br>https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/setCustomValidity
+
+#### Events
+
+Event | Type | Bubbles | Composed | Description
+--- | --- | --- | --- | ---
+`input` | `InputEvent` | No | No | Fired whenever `selected` changes due to user<br>interaction (bubbles and composed).
+`change` | `Event` | No | No | Fired whenever `selected` changes due to user<br>interaction (bubbles).
+
+<!-- auto-generated API docs end -->

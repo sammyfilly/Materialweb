@@ -698,3 +698,90 @@ Token                               | Default value
 
 <md-text-button>Text</md-text-button>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdElevatedButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the button is disabled.
+`href` | `string` | `''` | The URL that the link button points to.
+`target` | `string` | `''` | Where to display the linked `href` URL for a link button. Common options<br>include `_blank` to open in a new tab.
+`trailingIcon` | `boolean` | `false` | Whether to render the icon at the inline end of the label rather than the<br>inline start.<br><br>_Note:_ Link buttons cannot have trailing icons.
+`hasIcon` | `boolean` | `false` | Whether to display the icon or not.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+
+### MdFilledButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the button is disabled.
+`href` | `string` | `''` | The URL that the link button points to.
+`target` | `string` | `''` | Where to display the linked `href` URL for a link button. Common options<br>include `_blank` to open in a new tab.
+`trailingIcon` | `boolean` | `false` | Whether to render the icon at the inline end of the label rather than the<br>inline start.<br><br>_Note:_ Link buttons cannot have trailing icons.
+`hasIcon` | `boolean` | `false` | Whether to display the icon or not.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+
+### MdFilledTonalButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the button is disabled.
+`href` | `string` | `''` | The URL that the link button points to.
+`target` | `string` | `''` | Where to display the linked `href` URL for a link button. Common options<br>include `_blank` to open in a new tab.
+`trailingIcon` | `boolean` | `false` | Whether to render the icon at the inline end of the label rather than the<br>inline start.<br><br>_Note:_ Link buttons cannot have trailing icons.
+`hasIcon` | `boolean` | `false` | Whether to display the icon or not.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+
+### MdOutlinedButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the button is disabled.
+`href` | `string` | `''` | The URL that the link button points to.
+`target` | `string` | `''` | Where to display the linked `href` URL for a link button. Common options<br>include `_blank` to open in a new tab.
+`trailingIcon` | `boolean` | `false` | Whether to render the icon at the inline end of the label rather than the<br>inline start.<br><br>_Note:_ Link buttons cannot have trailing icons.
+`hasIcon` | `boolean` | `false` | Whether to display the icon or not.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+
+### MdTextButton
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the button is disabled.
+`href` | `string` | `''` | The URL that the link button points to.
+`target` | `string` | `''` | Where to display the linked `href` URL for a link button. Common options<br>include `_blank` to open in a new tab.
+`trailingIcon` | `boolean` | `false` | Whether to render the icon at the inline end of the label rather than the<br>inline start.<br><br>_Note:_ Link buttons cannot have trailing icons.
+`hasIcon` | `boolean` | `false` | Whether to display the icon or not.
+`type` | `string` | `'submit'` | 
+`value` | `string` | `''` | 
+`name` | `string` | `undefined` | 
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+
+<!-- auto-generated API docs end -->

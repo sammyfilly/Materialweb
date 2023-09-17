@@ -130,3 +130,28 @@ md-focus-ring {
   <md-focus-ring></md-focus-ring>
 </button>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdFocusRing
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`visible` | `boolean` | `false` | Makes the focus ring visible.
+`inward` | `boolean` | `false` | Makes the focus ring animate inwards instead of outwards.
+`htmlFor` | `string` | `undefined` | 
+`control` | `HTMLElement` | `undefined` | 
+
+#### Methods
+
+Method | Parameters | Returns | Description
+--- | --- | --- | ---
+`attach` | `control` | `void` | 
+`detach` | _None_ | `void` | 
+
+<!-- auto-generated API docs end -->

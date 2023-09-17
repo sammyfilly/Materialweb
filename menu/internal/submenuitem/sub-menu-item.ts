@@ -15,8 +15,8 @@ import {MenuItemEl} from '../menuitem/menu-item.js';
 import {CLOSE_REASON, CloseMenuEvent, createActivateTypeaheadEvent, createDeactivateTypeaheadEvent, KEYDOWN_CLOSE_KEYS, NAVIGABLE_KEY, SELECTION_KEY} from '../shared.js';
 
 /**
- * @fires deactivate-items Requests the parent menu to deselect other items when
- * a submenu opens
+ * @fires deactivate-items {CloseMenuEvent} Requests the parent menu to deselect other items when
+ * a submenu opens. --bubbles --composed
  * @fires request-activation Requests the parent make the element focusable and
  * focuses the item.
  * @fires deactivate-typeahead Requests the parent menu to deactivate the

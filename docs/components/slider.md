@@ -155,3 +155,39 @@ Token                              | Default value
   step="5"
 ></md-slider>
 ```
+
+<!-- auto-generated API docs start -->
+
+## API
+
+
+### MdSlider
+
+#### Properties
+
+Property | Type | Default | Description
+--- | --- | --- | ---
+`disabled` | `boolean` | `false` | Whether or not the slider is disabled.
+`min` | `number` | `0` | The slider minimum value
+`max` | `number` | `100` | The slider maximum value
+`value` | `number` | `undefined` | The slider value displayed when range is false.
+`valueStart` | `number` | `undefined` | The slider start value displayed when range is true.
+`valueEnd` | `number` | `undefined` | The slider end value displayed when range is true.
+`valueLabel` | `string` | `''` | An optional label for the slider's value displayed when range is<br>false; if not set, the label is the value itself.
+`valueLabelStart` | `string` | `''` | An optional label for the slider's start value displayed when<br>range is true; if not set, the label is the valueStart itself.
+`valueLabelEnd` | `string` | `''` | An optional label for the slider's end value displayed when<br>range is true; if not set, the label is the valueEnd itself.
+`ariaLabelStart` | `string` | `''` | Aria label for the slider's start handle displayed when<br>range is true.
+`ariaValueTextStart` | `string` | `''` | Aria value text for the slider's start value displayed when<br>range is true.
+`ariaLabelEnd` | `string` | `''` | Aria label for the slider's end handle displayed when<br>range is true.
+`ariaValueTextEnd` | `string` | `''` | Aria value text for the slider's end value displayed when<br>range is true.
+`step` | `number` | `1` | The step between values.
+`ticks` | `boolean` | `false` | Whether or not to show tick marks.
+`labeled` | `boolean` | `false` | Whether or not to show a value label when activated.
+`range` | `boolean` | `false` | Whether or not to show a value range. When false, the slider displays<br>a slideable handle for the value property; when true, it displays<br>slideable handles for the valueStart and valueEnd properties.
+`name` | `string` | `undefined` | The HTML name to use in form submission.
+`nameStart` | `string` | `undefined` | The HTML name to use in form submission for a range slider's starting<br>value. Use `name` instead if both the start and end values should use the<br>same name.
+`nameEnd` | `string` | `undefined` | The HTML name to use in form submission for a range slider's ending value.<br>Use `name` instead if both the start and end values should use the same<br>name.
+`form` | `HTMLFormElement` | `undefined` | The associated form element with which this element's value will submit.
+`labels` | `NodeList` | `undefined` | The labels this element is associated with.
+
+<!-- auto-generated API docs end -->
