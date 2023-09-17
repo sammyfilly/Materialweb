@@ -206,10 +206,4 @@ md-icon[filled] {
 ```
 
 <!-- auto-generated API docs start -->
-
-## API
-
-
-### MdIcon
-
 <!-- auto-generated API docs end -->

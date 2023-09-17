@@ -167,6 +167,17 @@ function insertMarkdownTables(
     tables: { name: string; table: MarkdownTable }[];
   }[]
 ) {
+  const hasContent = elements.reduce((hasContent, element) => {
+    return hasContent || element.tables.length > 0;
+  }, false);
+
+  if (!hasContent) {
+    return fileContents.replace(
+      /<!-- auto-generated API docs start -->.*<!-- auto-generated API docs end -->/s,
+      `<!-- auto-generated API docs start -->
+<!-- auto-generated API docs end -->`
+    );
+  }
   let tablesStrings = '';
 
   for (const element of elements) {

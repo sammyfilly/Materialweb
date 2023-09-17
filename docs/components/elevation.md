@@ -122,10 +122,4 @@ Token                         | Default value
 ```
 
 <!-- auto-generated API docs start -->
-
-## API
-
-
-### MdElevation
-
 <!-- auto-generated API docs end -->
