@@ -68,8 +68,8 @@ export function analyzeElementApi(
     customElementName: customElementModule.tagname,
     className: customElementModule.name,
     classPath: elementEntrypoint,
-    summary: cleanJsDocText(customElementModule.summary),
-    description: cleanJsDocText(customElementModule.description),
+    summary: makeMarkdownFriendly(customElementModule.summary),
+    description: makeMarkdownFriendly(customElementModule.description),
     properties,
     reactiveProperties,
     methods,
@@ -107,18 +107,18 @@ export function analzyeFields(
     if (isReactive) {
       reactiveProperties.push({
         name: field.name,
-        description: cleanJsDocText(field.description),
-        type: field.type.text,
+        description: makeMarkdownFriendly(field.description),
+        type: makeMarkdownFriendly(field.type.text),
         privacy: field.privacy,
-        default: field.default,
+        default: makeMarkdownFriendly(field.default),
       });
     } else {
       properties.push({
         name: field.name,
-        description: cleanJsDocText(field.description),
-        type: field.type.text,
+        description: makeMarkdownFriendly(field.description),
+        type: makeMarkdownFriendly(field.type.text),
         privacy: field.privacy,
-        default: field.default,
+        default: makeMarkdownFriendly(field.default),
       });
     }
   }
@@ -147,16 +147,16 @@ export function analyzeMethods(
 
     methods.push({
       name: method.name,
-      description: cleanJsDocText(method.description),
+      description: makeMarkdownFriendly(method.description),
       privacy: method.privacy,
       parameters: method.parameters.map((parameter) => ({
         name: parameter.name,
-        summary: cleanJsDocText(parameter.summary),
-        description: cleanJsDocText(parameter.description),
-        type: parameter.type.text,
+        summary: makeMarkdownFriendly(parameter.summary),
+        description: makeMarkdownFriendly(parameter.description),
+        type: makeMarkdownFriendly(parameter.type.text),
         default: parameter.default,
       })),
-      returns: method.return?.type.text,
+      returns: makeMarkdownFriendly(method.return?.type.text),
     });
   }
 
@@ -177,23 +177,24 @@ export function analyzeEvents(
 
     description = description?.replace(/\s*\-\-bubbles\s*/g, '');
     description = description?.replace(/\s*\-\-composed\s*/g, '');
-    description = cleanJsDocText(description);
+    description = makeMarkdownFriendly(description);
     events.push({
       name: eventName,
       description,
       bubbles,
       composed,
-      type: event?.type?.text,
+      type: makeMarkdownFriendly(event?.type?.text),
     });
   }
   return events;
 }
 
-export function cleanJsDocText(text?: string) {
+export function makeMarkdownFriendly(text?: string) {
   if (!text) return undefined;
 
   text = text.trim();
   text = text.replaceAll('\n', '<br>');
+  text = text.replaceAll('|', '\\|');
   text = text.replaceAll(/\s+/g, ' ');
 
   return text;

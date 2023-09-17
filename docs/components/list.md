@@ -585,8 +585,8 @@ Property | Type | Default | Description
 Method | Parameters | Returns | Description
 --- | --- | --- | ---
 `getRenderClasses` | _None_ | `{ noninteractive: boolean; 'with-one-line': boolean; 'with-two-line': boolean; 'with-three-line': boolean; disabled: boolean; }` | 
-`renderRipple` | _None_ | `unique symbol | TemplateResult` | 
-`renderFocusRing` | _None_ | `unique symbol | TemplateResult` | 
+`renderRipple` | _None_ | `unique symbol \| TemplateResult` | 
+`renderFocusRing` | _None_ | `unique symbol \| TemplateResult` | 
 `onFocus` | _None_ | `void` | 
 
 <!-- auto-generated API docs end -->
